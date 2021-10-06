@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using KieuVanThang341.Models;
+using KVT0341.Models;
 
 namespace KieuVanThang341.Data
 {
@@ -15,5 +16,7 @@ namespace KieuVanThang341.Data
         }
 
         public DbSet<KieuVanThang341.Models.KVT341> KVT341 { get; set; }
+
+        public DbSet<KVT0341.Models.KVT0341> KVT0341 { get; set; }
     }
 }
